@@ -1,0 +1,840 @@
+/*
+	Template Name 	: Uper - Software landing page HTML template
+	Author 			: Awaiken Theme
+	Author Url 		: https://awaikenthemes.com
+*/
+
+/************************************/
+/***** 	    General css		 	 ****/
+/************************************/
+
+body{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 98px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-top:0;
+	font-weight: 700;
+}
+
+img{
+	max-width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+	outline: 0;
+}
+
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+
+.preloader{
+    background: #294056;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.browser-screen-loading-content {
+    text-align: center;
+    height: 2em;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 3em;
+    left: 0;
+    margin: auto;
+}
+
+/************************************/
+/*****     Navigation area css  *****/
+/************************************/
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-default{
+	background: #fff;
+}
+
+.navbar-brand{
+	padding: 0 15px;
+	margin-top: -5px;
+}
+
+.navbar-brand img{
+	transition: all 0.3s;
+}
+
+.navbar-brand h1{
+	font-size: 30px;
+	margin: 0;
+	color: #fff;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	font-family: 'Graduate', cursive;
+	text-transform: uppercase;
+}
+
+.navbar-brand img{
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	height: auto;
+	padding: 0
+}
+
+.navbar-brand h1 i{
+	position: relative;
+	top: 3px;
+	color: #ecae1a;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.navbar-default{
+	border: none;
+	border-bottom: 1px solid transparent;
+	padding: 24px 0;
+	border-radius: 0;
+	z-index: 12;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ea6248;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+	color: #393a3d;
+}
+
+.slicknav_menu{
+	display: none;
+}
+
+.sticky-header{
+	padding: 10px 0;
+	border-bottom: none;
+	box-shadow: 4px 2px 30px rgba(0,0,0,0.2);
+	transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.sticky-header .navbar-brand h1 i,
+.sticky-header .navbar-brand h1{
+	color: #24292f;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #393a3d;
+	letter-spacing: 0.04em;
+	padding: 15px 15px 13px; 
+	position: relative;
+}
+
+.active a{
+	background: none !important;
+	color: #ea6248 !important;
+}
+
+.sticky-header .navbar-nav>li>a{
+	color: #393a3d;
+}
+
+.sticky-header .navbar-nav>li>a:hover{
+	color: #ea6248;
+}
+
+.sticky-header .navbar-nav>li>a:focus{
+	color: #ea6248;
+}
+
+.sticky-header .active a{
+	background: none !important;
+	color: #ea6248 !important;
+}
+
+.sticky-header .navbar-brand img{
+	height: 52px;
+	padding-top: 10px;
+}
+
+.navbar-default .active a:after{
+	transform: scale(1) !important;
+	-webkit-transform: scale(1) !important;
+	-moz-transform: scale(1) !important;
+}
+
+.navbar-default .navbar-toggle{
+	border-radius: 0;
+	border-color: #294056;
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background: #fff;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background: none;
+}
+
+.slicknav_icon-bar{
+	background: #294056;
+}
+
+/************************************/
+/*****      Slider area css     *****/
+/************************************/
+
+
+.banner{
+	padding: 160px 0;
+	background: url(../images/banner.jpg) no-repeat center center;
+	position: relative;
+}
+
+.banner:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(26,29,36,0.6);
+}
+
+.banner-desc{	
+	text-align: center;
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.banner-desc h2{
+	color: #fff;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 1.3em;
+	margin-bottom: 30px;
+}
+
+.banner-desc p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+}
+
+.btn-schedule{
+	display: inline-block;
+	background: #ea6248;
+	padding: 16px 20px 14px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+	border-radius: 2px;
+	transition: all 0.3s;
+	margin-right: 20px;
+}
+
+.btn-schedule i{
+	margin-right: 6px;
+	position: relative;
+	top: 1px;
+}
+
+.btn-schedule:hover{
+	background: #393a3d;
+	color: #fff;
+}
+
+.banner-desc a{
+	margin-top: 30px;
+}
+
+.btn-download{
+	display: inline-block;
+	background: #4cbd73;
+	padding: 16px 20px 14px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+	border-radius: 2px;
+	transition: all 0.3s;
+}
+
+.btn-download i{
+	margin-right: 6px;
+	position: relative;
+	top: 1px;
+}
+
+.btn-download:hover{
+	background: #393a3d;
+	color: #fff;
+}
+
+.overview{
+	background: #393a3d;
+	padding: 120px 0;
+}
+
+.software-overview h2{
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+	letter-spacing: 0.04em;
+	margin-bottom: 30px;
+}
+
+.software-overview p{
+	color: #fff;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.software-overview ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.software-overview ul li{
+	color: #fff;
+	padding: 6px 0;
+}
+
+.software-overview ul li:before{
+	content: '\f00c';
+	font-family: FontAwesome;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.software-video iframe{
+	width: 100%;
+}
+
+.features{
+	padding: 120px 0 60px;
+	background: #fff;
+}
+
+.main-title{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.main-title h2{
+	color: #393a3d;
+	font-size: 36px;
+	font-weight: 500;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.main-title h2:before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 80px;
+	height: 6px;
+	background: #1867a9;
+	margin-left: -40px;
+}
+
+.main-title h2:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 50px;
+	height: 6px;
+	background: #44a3f2;
+	margin-left: -25px;
+	border-left: 6px solid #fff;
+	border-right: 6px solid #fff;
+}
+
+.feature-box{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.feature-icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	background: #44a3f2;
+	border: 1px solid #44a3f2;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 50%;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.feature-box h2{
+	font-size: 22px;
+	color: #393a3d;
+	font-weight: 600;
+	margin: 30px 0;
+}
+
+.feature-box p{
+	line-height: 1.5em;
+	color: #6f7174;
+	font-weight: 300;
+}
+
+.howwork{
+	background: #f8f8f8;
+	padding: 120px 0;
+}
+
+.howwork-box{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.howwork-box i{
+	font-size: 68px;
+	color: #44a3f2;
+}
+
+.howwork-box h2{
+	font-size: 22px;
+	color: #393a3d;
+	font-weight: 600;
+	margin: 30px 0;
+}
+
+.howwork-box p{
+	line-height: 1.5em;
+	color: #6f7174;
+	font-weight: 300;
+}
+
+.contactbar{
+	background: #294056;
+	padding: 60px 0 50px;
+}
+
+.contactbar-info p{
+	color: #fff;
+	font-size: 36px;
+	margin-bottom: 0;
+	font-weight: 500;
+	padding-top: 4px;
+}
+
+.contactbar-link{
+	text-align: right;
+}
+
+.btn-contact-bar{
+	display: inline-block;
+	background: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	color: #294056;
+	letter-spacing: 0.04em;
+	padding: 18px 20px 16px;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+.btn-contact-bar:hover{
+	background: #ea6248;
+	color: #fff;
+}
+
+.pricing{
+	padding: 120px 0;
+}
+
+.price-box{
+	border: 2px solid #294056;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.recommended{
+	background: #294056;
+}
+
+.price-header{
+	margin-bottom: 40px;
+}
+
+.price-header h2{
+	font-size: 42px;
+	color: #294056;
+}
+
+.recommended .price-header h2,
+.recommended .price-header p,
+.recommended .price-body h3,
+.recommended .price-body h3 span{
+	color: #fff;
+}
+
+.price-header p{
+	color: #294056;
+}
+
+.price-body h3{
+	font-size: 60px;
+	color: #294056;
+	margin-bottom: 50px;
+}
+
+.price-body h3 span{
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.btn-buynow{
+	display: block;
+	padding: 18px 30px;
+	background: #476d92;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	transition: all 0.3s;
+}
+
+.btn-buynow:hover{
+	background: #5781a9;
+	color: #fff;
+}
+
+.contactus{
+	background: url(../images/contact.jpg) no-repeat top center fixed;
+	background-size: cover;
+	padding: 100px 0 80px;
+	position: relative;
+}
+
+.contactus .main-title{
+	margin-bottom: 40px;
+}
+
+.contactus:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(41,64,86,0.94);
+}
+
+.contactus .main-title h2{
+	color: #fff;
+}
+
+.contactus .main-title h2:after{
+	display: none;
+}
+
+.contactus .main-title h2:before{
+	display: none;
+}
+
+.contact-form{
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.contact-form .form-control{
+	background: rgba(255,255,255,0.1);
+	border: none;
+	box-shadow: none;
+	padding: 18px;
+	height: auto;
+	color: #fff;
+	resize: none;
+}
+
+.contact-form .form-control::-webkit-input-placeholder{
+	color: #fff;
+}
+
+.contact-form .form-control:-moz-placeholder{
+	color: #fff;
+}
+
+.contact-form .form-control:-ms-input-placeholder{
+	color: #fff;
+}
+
+.contact-form .form-group{
+	margin-bottom: 30px;
+}
+
+.btn-contactus{
+	display: inline-block;
+	background: #ea6248;
+	color: #fff;
+	border: none;
+	padding: 18px 30px 16px;
+	border-radius: 2px;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	margin-top: 30px;
+}
+
+.btn-contactus:hover{
+	background: #000;
+}
+
+footer{
+	background: #294056;
+	padding: 50px 0;
+}
+
+.footer-siteinfo p{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	margin-bottom: 0;
+}
+
+.footer-siteinfo p a{
+	color: #fff;
+}
+
+.footer-siteinfo p a:hover{
+	color: #ea6248;
+}
+
+.footer-menu{
+	text-align: right;
+}
+
+.footer-menu ul{
+	padding: 0;
+	margin: 0;
+}
+
+.footer-menu ul li{
+	display: inline-block;
+}
+
+.footer-menu ul li a{
+	display: block;
+	margin-left: 20px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+}
+
+.footer-menu ul li a:hover{
+	color: #ea6248;
+}
+
+/****************************************
+		Responsive Media Query
+****************************************/
+
+@media only screen and (max-width: 991px) {
+	.navbar-default .navbar-nav>li>a{
+		padding: 17px 6px 13px;
+	}
+	
+	.software-overview{
+		margin-bottom: 40px;
+	}
+	
+	.contactbar-info{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	.contactbar-link{
+		text-align: center;
+	}
+	
+	.footer-siteinfo{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.footer-menu{
+		text-align: center;
+	}
+	
+	.footer-menu ul li a{
+		margin: 0 10px;
+	}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 767px){
+	
+	#responsive-menu{
+		display: block;	
+	}
+	
+	.slicknav_menu{
+		display: block;
+		margin-left: -15px;
+		margin-right: -15px;
+		padding: 0;
+		background: none;
+	}
+
+	.slicknav_menu ul{
+		background: #ea6248;
+		position: relative;
+		top: 25px;
+	}
+	
+	.sticky-header .slicknav_menu ul{
+		top: 16px;
+	}
+	
+	.slicknav_menu li{
+		padding: 0 10px;
+	}
+
+	.slicknav_menu .active a{
+		color: #24292f;
+	}
+	
+	.slicknav_menu a{
+		color: #fff;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		text-transform: uppercase;
+		border: 1px solid transparent;
+	}
+
+	.slicknav_menu a a{
+		border: none !important;
+	}
+	
+	.slicknav_nav .slicknav_row:hover,
+	.slicknav_nav a:hover{
+		color: #24292f;
+	}
+	
+	.slicknav_menu  .active a{
+		color: #24292f !important;
+	}
+	
+	.slicknav_btn{
+		padding: 4px 4px;
+		background: none;
+	}
+	
+	.slicknav_icon-bar{
+		box-shadow: none;
+		border-radius: 0;
+		margin: 2px 0;
+	}
+	
+	.banner-desc h2{
+		font-size: 28px;
+	}
+	
+	.banner-desc p{
+		font-size: 16px;
+	}
+	
+	.banner{
+		padding: 50px 0;
+	}
+	
+	.overview,
+	.features,
+	.howwork,
+	.pricingk,
+	.contactus{
+		padding: 60px 0;
+	}
+	
+	.software-overview h2{
+		font-size: 26px;
+	}
+	
+	.software-overview p,
+	.software-overview ul li{
+		font-size: 14px;
+	}
+	
+	.main-title h2{
+		font-size: 26px;
+	}
+	
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width: 480px) {
+	.btn-schedule{
+		margin-right: 0;
+	}
+	
+	.feature-box{
+		margin-bottom: 40px;
+	}
+	
+	.contactbar-info p{
+		font-size: 24px;
+	}
+	
+	.btn-contact-bar{
+		font-size: 16px;
+	}
+	
+	.price-header h2{
+		font-size: 28px;
+	}
+	
+	.price-body h3{
+		font-size: 36px;
+	}
+	
+	.btn-buynow{
+		font-size: 16px;
+		padding: 16px;
+	}
+	
+	.main-title h2{
+		font-size: 24px;
+	}
+}

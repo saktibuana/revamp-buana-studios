@@ -1,0 +1,843 @@
+/*
+	Template Name 	: Quickboost - Digital Marketing Business Template
+	Author 			: Awaiken Theme
+	Author Url 		: https://awaikenthemes.com
+*/
+
+/************************************/
+/*****       General css         ****/
+/************************************/
+
+body{
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-top:0;
+	font-weight: 700;
+}
+
+img{
+	max-width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+	outline: 0;
+}
+
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #ff5056;
+}
+
+::selection {
+	color: #fff;
+    background: #ff5056;
+}
+
+.preloader{
+    background: #152d43;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.browser-screen-loading-content {
+    text-align: center;
+    height: 2em;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 3em;
+    left: 0;
+    margin: auto;
+}
+
+/************************************/
+/*****   Navigation area css    *****/
+/************************************/
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	padding: 0 15px 0;
+	height: auto;
+}
+
+.navbar-brand img{
+	height: 63px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand h1{
+	font-size: 30px;
+	margin: 0;
+	color: #8bc34a;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: normal;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.navbar-brand h1 span{
+	color: #fff;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.navbar-default{
+	background: none;
+	border: none;
+	border-bottom: 1px solid transparent;
+	padding: 20px 0;
+	border-radius: 0;
+	z-index: 12;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+.navbar-collapse{
+	padding-top: 8px;
+	transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ff5056;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+}
+
+.sticky-header{
+	background: #f4605c;
+	padding: 10px 0;
+	border-bottom: none;
+	transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.sticky-header .navbar-brand img{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	height: 50px;
+}
+
+.sticky-header .navbar-collapse{
+	padding-top: 2px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 0.04em;
+	padding: 16px 15px 12px; 
+	position: relative;
+}
+
+.active a{
+	background: none !important;
+	color: #ff5056 !important;
+}
+
+.sticky-header .navbar-nav>li>a{
+	color: #24292f;
+}
+
+.sticky-header .navbar-nav>li>a:hover{
+	color: #fff;
+}
+
+.sticky-header .navbar-nav>li>a:focus{
+	color: #24292f;
+}
+
+.sticky-header .active a{
+	background: none !important;
+	color: #fff !important;
+}
+
+.sticky-header .navbar-brand img{
+	filter: brightness(0) invert(1);
+}
+
+.navbar-default .active a:after{
+	transform: scale(1) !important;
+	-webkit-transform: scale(1) !important;
+	-moz-transform: scale(1) !important;
+}
+
+.btn-custom{
+	display: inline-block;
+	min-width: 180px;
+	text-align: center;
+	background: #ff5056;
+	color: #fff;
+	font-size: 18px;
+	padding: 15px 30px;
+	transition: all 0.4s;
+	border-radius: 2px;
+}
+
+.btn-custom:hover{
+	background: #f26c4f;
+	color: #fff;
+}
+
+.btn-custom:focus{
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle{
+	border-radius: 0;
+	border-color: #fff;
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background: #fff;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background: none;
+}
+
+/************************************/
+/*****     Slider area css      *****/
+/************************************/
+.banner{
+	background: #152d43;
+	padding: 200px 0 120px;
+}
+
+.header-banner{
+	text-align: center;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.header-banner .icon-box{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: #23415d;
+	padding-top: 40px;
+	margin: 0 auto 30px;
+}
+
+.header-banner p{
+	color: #fff;
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 1.2em;
+	margin-bottom: 30px;
+}
+
+.services{
+	padding: 100px 0 40px;
+}
+
+.main-title{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.main-title h2{
+	font-size: 40px;
+	color: #152d43;
+	margin-bottom: 6px;
+	font-weight: normal;
+}
+
+.main-title p{
+	color: #ff5056;
+	font-size: 18px;
+}
+
+.service-single{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.service-single figure{
+	margin-bottom: 30px;
+}
+
+.service-single h3{
+	font-size: 20px;
+	color: #ff5056;
+	margin-bottom: 20px;
+	min-height: 52px;
+	line-height: 1.3em;
+}
+
+.service-single p{
+	font-size: 14px;
+	color: #9a9898;
+}
+
+.ourteam{
+	padding: 100px 0;
+	background: #f0fcff;
+}
+
+.team-single{
+	margin-bottom: 60px;
+}
+
+.team-header{
+	
+}
+
+.team-header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.team-image{
+	width: 50%;
+	float: left;
+	text-align: center;
+	border: 4px solid #152d43;
+	padding: 20px 20px 0;
+}
+
+.team-info{
+	width: 50%;
+	float: right;
+	padding-top: 40px;
+}
+
+.team-info h3{
+	font-size: 20px;
+	color: #fff;
+	background: #152d43;
+	font-weight: normal;
+	padding: 12px 16px 10px 16px;
+}
+
+.team-info p{
+	font-size: 16px;
+	padding: 0 16px; 
+	color: #636667;
+}
+
+.team-social{
+	padding: 0 16px;
+}
+
+.team-social a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background: #152d43;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	padding-top: 8px;
+	margin-right: 6px;
+	transition: all 0.3s;
+}
+
+.team-social a:hover{
+	background: #152d43;
+}
+
+.team-body{
+	margin-top: 20px;
+}
+
+.team-body p{
+	font-size: 16px;
+	color: #757678;
+	line-height: 1.5em;
+}
+
+.pricing{
+	padding: 100px 0;
+	background: #e0f5fa;
+}
+
+.pricing .main-title p{
+	color: #f4605c;
+}
+
+.price-single{
+	background: #fff;
+	border-radius: 6px;
+	text-align: left;
+}
+
+.price-header{
+	background: #2f8da5;
+	padding: 24px 30px;
+	border-radius: 6px 6px 0 0;
+}
+
+.price-header h3{
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+
+.price-body{
+	padding: 30px;
+}
+
+.price-body p{
+	font-size: 14px;
+	color: #667482;
+}
+
+.price-body ul{
+	padding: 10px 0;
+	margin: 0;
+	list-style: none;
+}
+
+.price-body ul li{
+	font-size: 14px;
+	color: #667482;
+	padding: 2px 0;
+}
+
+.price-body ul li:before{
+	content: '-';
+	margin-right: 10px;
+}
+
+.price-footer{
+	padding: 0 30px 30px;
+}
+
+.price-footer .btn-buynow{
+	display: block;
+	background: #ff5056;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 14px 10px;
+	border-radius: 2px;
+}
+
+.price-footer .btn-buynow:hover{
+	background: #152d43;
+}
+
+.small-box{
+	display: inline-block;
+	max-width: 264px;
+	margin-top: 80px;
+}
+
+.big-box{
+	
+}
+
+.big-box .price-header{
+	background: #152d43;
+	padding: 30px;
+}
+
+.big-box .price-header h3{
+	font-size: 32px;
+}
+
+.testimonial{
+	padding: 100px 0;
+}
+
+.testimonial-single{
+	text-align: center;
+	max-width: 994px;
+	margin: 0 auto;
+}
+
+.testimonial-single .icon-box{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 30px;
+	background: #152d43;
+	color: #fff;
+	font-size: ;
+	border-radius: 50%;
+	font-size: 40px;
+	padding-top: 14px;
+}
+
+.testimonial-single p{
+	font-size: 20px;
+	color: #667482;
+	line-height: 1.5em;
+}
+
+.testimonial-single figure{
+	margin: 40px 0;
+}
+
+.testimonial-single figure img{
+	width: auto !important;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.testimonial-single h3{
+	color: #152d43;
+	font-size: 34px;
+	font-weight: normal;
+}
+
+.testimonial-single h4{
+	font-weight: normal;
+	color: #667482;
+	font-size: 24px;
+}
+
+.contactus{
+	background: #152d43	;
+	padding: 100px 0;
+}
+
+.contactus .main-title h2{
+	color: #fff;
+}
+
+.contact-form{
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+.contact-form .form-group{
+	margin-bottom: 24px;
+}
+
+.contact-form .form-control{
+	box-shadow: none;
+	border-radius: 0;
+	height: auto;
+	padding: 20px 20px 18px;
+	font-size: 18px;
+	outline: 0;
+	border: none;
+}
+
+.btn-contact{
+	display: block;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	width: 100%;
+	max-width: 180px;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	background: #f4605c;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 14px 10px 12px 10px;
+}
+
+.btn-contact:hover{
+	background: #d64c48;
+}
+
+.mega-footer{
+	padding: 80px 0;
+}
+
+.footer-about{
+	
+}
+
+.footer-about img{
+	margin-bottom: 30px;
+}
+
+.footer-about p{
+	color: #656565;
+	margin-bottom: 0;
+}
+
+.footer-social-menu{
+	text-align: center;
+}
+
+.footer-social{
+	margin-bottom: 30px;
+}
+
+.footer-social h2{
+	font-size: 24px;
+	color: #656565;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.footer-social a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	color: #fff;
+	font-size: 18px;
+	background: #f4605c;
+	border-radius: 50%;
+	padding-top: 8px;
+	margin: 0 2px;
+}
+
+.footer-menu a{
+	color: #656565;
+}
+
+.footer-menu a:after{
+	content: '|';
+	padding: 0 2px 0 6px;
+}
+
+.footer-menu a:last-child:after{
+	display: none;
+}
+
+.footer-info{
+	
+}
+
+.footer-info-single{
+	position: relative;
+}
+
+.footer-info-single p{
+	color: #656565;
+	padding: 6px 0;
+	padding-left: 40px;
+}
+
+.footer-info-single .icon-box{
+	color: #f4605c;
+	font-size: 22px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+footer{
+	background: #f3f2f2;
+	padding: 40px 0;
+	text-align: center;
+}
+
+footer p{
+	margin-bottom: 0;
+	color: #152d43;
+}
+
+footer a{
+	color: #152d43;
+}
+
+footer a:hover{
+	color: #f4605c;
+}
+
+/****************************************
+		Responsive Media Query
+****************************************/
+
+@media only screen and (max-width: 991px) {
+	.small-box{
+		display: block;
+		max-width: 100%;
+		margin-top: 0;
+	}
+	
+	.big-box{
+		margin: 30px 0;
+	}
+	
+	.footer-about{
+		margin-bottom: 40px;
+	}
+	
+	.footer-social-menu{
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	
+	.footer-social a{
+		text-align: center;
+	}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 767px){
+	
+	#responsive-menu{
+		display: block;
+		
+	}
+	
+	.slicknav_menu{
+		margin-left: -15px;
+		margin-right: -15px;
+		padding: 0;
+		background: none;
+	}
+
+	.slicknav_menu ul{
+		background: #f4605c;
+		position: relative;
+		top: 16px;
+	}
+	
+	.slicknav_menu li{
+		padding: 0 10px;
+	}
+
+	.slicknav_menu .active a{
+		color: #24292f;
+	}
+	
+	.slicknav_menu a{
+		color: #fff;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		text-transform: uppercase;
+		border: 1px solid transparent;
+	}
+
+	.slicknav_menu a a{
+		border: none !important;
+	}
+	
+	.slicknav_nav .slicknav_row:hover,
+	.slicknav_nav a:hover{
+		color: #24292f;
+	}
+	
+	.slicknav_menu  .active a{
+		color: #24292f !important;
+	}
+	
+	.slicknav_btn{
+		padding: 4px 4px;
+		background: none;
+	}
+	
+	.slicknav_icon-bar{
+		box-shadow: none;
+		border-radius: 0;
+		margin: 2px 0;
+	}
+	
+	.services{
+		padding: 60px 0 20px;
+	}
+	
+	.ourteam,
+	.pricing,
+	.testimonial,
+	.contactus{
+		padding: 60px 0;
+	}
+	
+	.main-title{
+		margin-bottom: 50px;
+	}
+	
+	.main-title h2{
+		font-size: 28px;
+	}
+	
+	.main-title p{
+		font-size: 14px;
+	}
+	
+	.header-banner .icon-box{
+		width: 120px;
+		height: 120px;
+		padding-top: 32px;
+	}
+
+	.header-banner .icon-box img{
+		width: 60px;
+	}
+	
+	.header-banner p{
+		font-size: 36px;
+	}
+	
+	.service-single h3{
+		min-height: auto;
+	}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width: 480px) {
+	.header-banner p{
+		font-size: 26px;
+	}
+	
+	.navbar-brand img {
+		padding-top: 6px;
+		padding-bottom: 6px;
+		height: 50px;
+	}
+	
+	.banner{
+		padding: 140px 0 80px;
+	}
+	
+	.team-image{
+		width: 100%;
+		float: none;
+	}
+	
+	.team-info{
+		width: 100%;
+		float: none;
+	}
+	
+	.testimonial-single p{
+		font-size: 16px;
+	}
+	
+	.testimonial-single h3{
+		font-size: 24px;
+	}
+	
+	.testimonial-single h4{
+		font-size: 16px;
+	}
+	
+	.contact-form .form-control{
+		font-size: 16px;
+		padding: 16px 16px 14px;
+	}
+}
